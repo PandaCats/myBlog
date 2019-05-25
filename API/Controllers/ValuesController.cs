@@ -1,10 +1,6 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Threading.Tasks;
+﻿
 using System.Collections.Generic;
-using System.Linq;
-using API.Model;
-using Microsoft.AspNetCore.Authorization;
+using Blog.Model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -50,7 +46,7 @@ namespace API.Controllers
         /// </summary>
         /// <param name="blog">model实体类参数</param>
         [HttpPost]
-        public void Post(Blog blog)
+        public void Post(Panda blog)
         {
         }
     }
