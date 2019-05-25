@@ -45,7 +45,7 @@ namespace API.Controllers
         /// post
         /// </summary>
         /// <param name="blog">model实体类参数</param>
-        [HttpPost]
+        [HttpPost("{id}")]
         public void Post(Panda blog)
         {
         }
