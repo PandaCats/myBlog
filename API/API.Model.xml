@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API.Model</name>
+    </assembly>
+    <members>
+        <member name="P:Blog.Model.Panda.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Panda.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Panda.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+    </members>
+</doc>
