@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Blog.Core.Common
+namespace API.Common
 {
     public class SerializeHelper
     {
