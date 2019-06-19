@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Blog.Core.AuthHelper.OverWrite;
+using API.AuthHelper.OverWrite;
 using Microsoft.AspNetCore.Builder;
 
-namespace Blog.Core.AuthHelper
+namespace API.AuthHelper
 {
     /// <summary>
     /// 

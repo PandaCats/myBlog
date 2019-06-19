@@ -4,10 +4,10 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using Blog.Core.Common;
+using API.Common;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Blog.Core.AuthHelper.OverWrite
+namespace API.AuthHelper.OverWrite
 {
     public class JwtHelper
     {

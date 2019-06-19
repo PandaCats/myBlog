@@ -51,7 +51,6 @@ namespace API
                 //c.OperationFilter<SwaggerHeader>();
                 var security = new Dictionary<string, IEnumerable<string>> { { "API", new string[] { } }, };
                 c.AddSecurityRequirement(security);
-                //方案名称“Blog.Core”可自定义，上下一致即可
                 c.AddSecurityDefinition("API", new ApiKeyScheme
                 {
                     Description = "JWT授权(数据将在请求头中进行传输) 直接在下框中输入Bearer {token}（注意两者之间是一个空格）\"",
