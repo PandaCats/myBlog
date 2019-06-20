@@ -34,10 +34,10 @@ namespace API
                 c.SwaggerDoc("v1", new Info
                 {
                     Version = "v0.1.0",
-                    Title = "Blog.Core API",
+                    Title = "API",
                     Description = "框架说明文档",
                     TermsOfService = "None",
-                    Contact = new Swashbuckle.AspNetCore.Swagger.Contact { Name = "Blog.Core", Url = "https://www.pandacats.com/" }
+                    Contact = new Swashbuckle.AspNetCore.Swagger.Contact { Name = "API", Url = "https://www.pandacats.cn/" }
                 });
 
                 var xmlPath = Path.Combine(basePath, "API.xml");//这个就是刚刚配置的xml文件名
