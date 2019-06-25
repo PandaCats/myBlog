@@ -1,6 +1,10 @@
 ﻿using System.Collections.Generic;
 using Blog.Model;
 using Microsoft.AspNetCore.Mvc;
+using API.Model.Models;
+using API.Model;
+using API;
+
 
 namespace API.Controllers
 {
@@ -47,6 +51,13 @@ namespace API.Controllers
         [HttpPost("{id}")]
         public void Post(Panda blog)
         {
+        }
+
+        [HttpGet]
+        [Authorize(Policy = "SystemOrAdmin")]
+        public ActionResult<IEnumerable<string>> Get()
+        {
+            return new string[] { "value1", "value2" };
         }
     }
 }
