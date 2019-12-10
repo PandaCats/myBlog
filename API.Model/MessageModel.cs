@@ -6,5 +6,6 @@ namespace API.Model
 {
     class MessageModel
     {
+
     }
 }
