@@ -56,7 +56,6 @@
         </member>
         <member name="M:API.AuthHelper.JwtTokenAuth.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
             <summary>
-            
             </summary>
             <param name="httpContext"></param>
             <returns></returns>
