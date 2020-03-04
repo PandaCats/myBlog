@@ -37,11 +37,9 @@
             <summary>
             职能
             </summary>
-        </member>
-      
+        </member>      
         <member name="T:API.AuthHelper.JwtTokenAuth">
-            <summary>
-              
+            <summary>              
             </summary>
         </member>
         <member name="F:API.AuthHelper.JwtTokenAuth._next">
