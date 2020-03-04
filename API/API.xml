@@ -32,14 +32,17 @@
             <summary>
             角色
             </summary>
+        
         </member>
         <member name="P:API.AuthHelper.OverWrite.TokenModelJwt.Work">
             <summary>
             职能
             </summary>
         </member>      
+      
         <member name="T:API.AuthHelper.JwtTokenAuth">
-            <summary>              
+            <summary>    
+              
             </summary>
         </member>
         <member name="F:API.AuthHelper.JwtTokenAuth._next">
