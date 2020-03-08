@@ -44,10 +44,8 @@
         <member name="T:API.AuthHelper.JwtTokenAuth">
             <summary>    
         
-        </summary>
-        
-        </member>
-          
+        </summary>       
+        </member>         
         <member name="F:API.AuthHelper.JwtTokenAuth._next">
             <summary>
             
