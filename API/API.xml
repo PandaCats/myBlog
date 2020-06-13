@@ -29,7 +29,7 @@
             </summary>
         </member>
         <member name="P:API.AuthHelper.OverWrite.TokenModelJwt.Role">
-            <summary>
+            <summary>   
             角色
             </summary>       
         </member>
