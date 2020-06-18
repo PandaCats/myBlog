@@ -51,7 +51,7 @@
         <member name="F:API.AuthHelper.JwtTokenAuth._next">
             <summary>
             
-            </summary>
+            </summary>    
         </member>
         <member name="M:API.AuthHelper.JwtTokenAuth.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
             <summary>
