@@ -69,7 +69,7 @@
         <member name="M:API.Controllers.ValuesController.Post(Blog.Model.Panda)">
             <summary>
             post
-            </summary>     
+            </summary>       
             <param name="blog">model实体类参数</param>     
         </member>
     </members>  
