@@ -65,7 +65,7 @@
             </summary>                                     
             <param name="httpContext"></param>                 
             <returns></returns>   
-        </member>     
+        </member>          
         <member name="M:API.Controllers.ValuesController.Post(Blog.Model.Panda)">
             <summary> 
             post          
