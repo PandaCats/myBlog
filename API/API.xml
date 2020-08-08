@@ -58,7 +58,7 @@
                   
             </summary>    
             <param name="next"></param>      
-        </member>            
+        </member>              
         <member name="M:API.AuthHelper.JwtTokenAuth.Invoke(Microsoft.AspNetCore.Http.HttpContext)">           
             <summary>             
                            
